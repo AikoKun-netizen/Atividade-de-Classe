@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanWeb-DaysGone</title>
+    <style>
+        /* Base e Fundo */
+        body { 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #0d0d0d; /* Tom mais escuro para profundidade */
+            color: #e0e0e0; 
+        }
+
+        /* Header com gradiente e sombra */
+        header { 
+            background: linear-gradient(180deg, #b30000 0%, #7a0000 100%); 
+            color: white; 
+            padding: 60px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border-bottom: 3px solid #ff0000;
+        }
+
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        /* Container Principal */
+        section { 
+            padding: 40px 20px; 
+            max-width: 900px; 
+            margin: auto; 
+        }
+
+        /* Estilização de Títulos */
+        h2 { 
+            border-left: 5px solid #b30000; 
+            padding-left: 15px; 
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+
+        h3 { 
+            color: #ff4d4d; 
+            margin-top: 30px;
+        }
+
+        /* Imagens com moldura e efeito de foco */
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 4px; 
+            display: block;
+            margin: 20px 0;
+            border: 1px solid #333;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+            border-color: #b30000;
+        }
+
+        /* Listas e Blocos de Texto */
+        ul { 
+            list-style: none; 
+            padding: 0; 
+        }
+
+        li { 
+            font-size: 1.2em; 
+            font-weight: bold; 
+            color: #ff4d4d; 
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        li::before {
+            content: "•";
+            color: #b30000;
+            font-size: 2em;
+            margin-right: 10px;
+        }
+
+        p strong { color: #fff; }
+
+        /* Rodapé */
+        .footer { 
+            text-align: center; 
+            padding: 40px 20px; 
+            font-size: 0.9em; 
+            color: #555; 
+            background-color: #050505;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="font-size: xx-large;">Days Gone</h1>
+        <p>Página sobre o melhor exclusivo da Playstation</p>
+    </header>
+
+    <section>
+        <h2>Sobre o Jogo</h2>
+        <p><strong>Days Gone</strong> se passa em no estado de Oregon, nos Estados Unidos, logo após uma pandemia global. O jogo mostra um cenário pós-apocalípitico onde pessoas, isoladas pelo governo, lutam para sobreviver. </p>
+        
+        <h3>Sobre o protagonista</h3>
+        <p>Você joga como <strong>Deacon St. John</strong>, um motoqueiro/andarilho e caçador de recompensas que sobrevive no deserto do Oregon com sua motov, vivendo junto de seu amigo <strong>William "Boozer" Gray</strong>. Seu objetivo principal é encontrar sua esposa <strong>Sarah Whitaker</strong>, que achava estar morta durante o começo das infecções.</p>
+        
+        <h3>Sobre os inimigos</h3>
+        <ul>
+            <li>Freakers (infectados)</li>
+            <p> São humanos ea animais vítimas de uma infecção viral chamada "Vírus Freaker", que os transforma em monstros canibais vorazes. O vírus lhes concede força, velocidade e agilidade superiores às de uma criatura normal de sua espécie, Todos os Freakers parecem ter a pele coberta de feridas sangrentas, e os humanos infectados parecem ter ficado sem pelos.</p>
+            <img src="https://static.wikia.nocookie.net/villains/images/4/41/Days-gone-editorial-freakers-two-column-01-ps4-en-20mar19_1553599785636.png/revision/latest?cb=20200809021720" alt="infectados">
+            
+            <li>Screamers (Gritadoras);</li>
+            <p>Uma Screamer é sempre do sexo feminino e se destaca por seus finos cabelos brancos que chegam até os ombros. Quando grita, a Gritadora pode esticar a mandíbula a proporções anormais.</p>
+            <img src="https://static.wikia.nocookie.net/daysgone/images/c/cd/Screamer_In_Cascade.png/revision/latest?cb=20230315215845" alt="Gritadoras">
+            
+            <li>Reachers (Alcaçadores);</li>
+            <p>Os  Reachers são um tipo de Freaker. Eles são muito rápidos (chegando a 64km/h), mais inteligentes e muito mais letais do que os infectados comuns. </p>
+            <img src="https://static.wikia.nocookie.net/daysgone/images/a/a5/Retud.jpg/revision/latest/scale-to-width-down/1000?cb=20241231172407" alt="Alcançadores">
+
+            <li>Breakers (Quebradores);</li>
+            <p>São Freakers grandes, fortes e extremamente mutantes, capazes de perfurar armaduras de nível militar e suportar danos extremos. São hostis a todos os outros infectados e os atacam à vista. Eles são capazes de matar Swarmers com facilidade e já foram vistos arrancando seus membros.</p>
+            <img src="https://static.wikia.nocookie.net/daysgone/images/6/6a/Dnmxk.jpeg/revision/latest/scale-to-width-down/1000?cb=20250817170710" alt="Quebradores">
+            
+            <li>Newts (Salamandras);</li>
+            <p>Os Newts são crianças ou adolescentes infectados com o " Vírus Freaker ". Eles aparentam ter entre dez e quatorze anos de idade e uma altura entre 140 e 159 centímetros. Embora ocasionalmente bípedes, os Newts geralmente rastejam sobre quatro patas quando se movem ou atacam. Uma característica única que diferencia os Newts de qualquer outro Freaker é a capacidade de ainda possuírem cabelo.</p>
+            <img src="https://static.wikia.nocookie.net/daysgone/images/6/66/Sarahs-Newt.png/revision/latest/scale-to-width-down/1000?cb=20221213025343" alt="Salamandras">
+        </ul>
+    </section>
+
+    <div class="footer">
+        <p>Aiko.inc &copy; 2026</p>
+    </div>
+
+</body>
+</html>
